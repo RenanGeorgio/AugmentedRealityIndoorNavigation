@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AR Navigation</string>
     <string name="title_activity_laucher_activiy">LaucherActiviy</string>
+    <string name="ar_api_key">valor</string>
 </resources>
