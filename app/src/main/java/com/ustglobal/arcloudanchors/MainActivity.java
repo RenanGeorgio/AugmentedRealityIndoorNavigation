@@ -13,6 +13,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.google.ar.core.Anchor;
+import com.google.ar.core.ArCoreApk;
 import com.google.ar.sceneform.AnchorNode;
 import com.google.ar.sceneform.math.Quaternion;
 import com.google.ar.sceneform.math.Vector3;
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         }
 
+        //ArCoreApk.Availability availability = ArCoreApk.getInstance().checkAvailability(this);
         setContentView(R.layout.activity_main);
         anchorList = new ArrayList();
         TinyDB tinydb = new TinyDB(getApplicationContext());
