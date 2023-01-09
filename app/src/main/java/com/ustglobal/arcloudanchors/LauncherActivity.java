@@ -12,13 +12,10 @@ import android.widget.PopupMenu;
 
 public class LauncherActivity extends AppCompatActivity implements View.OnClickListener, PopupMenu.OnMenuItemClickListener {
 
-    public static final String ELECTRONICS = "electronics";
-    public static final String TOYS = "toys";
-    public static final String TV_APPLIANCES = "tv_appliances";
     public static final String CLOTHING = "clothing";
     public static final String FROM = "from";
     public static final String MODE = "mode";
-    public String userMode = "user";
+    public String userMode = "admin"; //para hospedar as ancoras
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,13 +36,7 @@ public class LauncherActivity extends AppCompatActivity implements View.OnClickL
             popup.show();
         });
 
-        ImageButton electBtn = findViewById(R.id.electronic_btn);
-        ImageButton toysBtn = findViewById(R.id.toys_btn);
-        ImageButton tvBtn = findViewById(R.id.tv_btn);
         ImageButton clothingBtn = findViewById(R.id.clothing_btn);
-        electBtn.setOnClickListener(this);
-        toysBtn.setOnClickListener(this);
-        tvBtn.setOnClickListener(this);
         clothingBtn.setOnClickListener(this);
     }
 
@@ -66,19 +57,9 @@ public class LauncherActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.electronic_btn:
-                goToCameraActivity(ELECTRONICS);
-                break;
-            case R.id.toys_btn:
-                goToCameraActivity(TOYS);
-                break;
-            case R.id.tv_btn:
-                goToCameraActivity(TV_APPLIANCES);
-                break;
             case R.id.clothing_btn:
                 goToCameraActivity(CLOTHING);
                 break;
-
         }
     }
 
