@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1090151419557",
+    "project_id": "navigation-android-164a4",
+    "storage_bucket": "navigation-android-164a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090151419557:android:6d5144edd163a5065e074c",
+        "android_client_info": {
+          "package_name": "com.ustglobal.arcloudanchors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090151419557-af9hafrflc2459tah00km9th07as44ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAErPR7yIxJUtWsawYCQb2DoNUUtbgOZtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090151419557-af9hafrflc2459tah00km9th07as44ud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

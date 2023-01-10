@@ -25,20 +25,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <RelativeLayout
-        android:id="@+id/map_preview"
+    <FrameLayout
+        android:id="@+id/map_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/modelOptions"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/semicircle_map_background" >
+        android:background="@drawable/semicircle_map_background"
+        tools:context=".CustomSupportMap">
 
         <fragment
             android:id="@+id/map_fragment"
-            android:name="com.ustglobal.arcloudanchors.CustomSupportMapFragment"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </RelativeLayout>
+            android:layout_height="113dp" />
+    </FrameLayout>
 
     <Button
         android:id="@+id/resolve"
