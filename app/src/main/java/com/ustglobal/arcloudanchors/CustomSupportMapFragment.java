@@ -14,7 +14,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class CustomSupportMapFragment extends Fragment implements OnMapReadyCallback {
-
+/*
     private GoogleMap mMap;
 
     @Override
@@ -39,4 +39,6 @@ public class CustomSupportMapFragment extends Fragment implements OnMapReadyCall
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
+
+ */
 }

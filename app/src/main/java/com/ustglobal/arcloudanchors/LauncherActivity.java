@@ -8,6 +8,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Button;
 import android.widget.PopupMenu;
 
 public class LauncherActivity extends AppCompatActivity implements View.OnClickListener, PopupMenu.OnMenuItemClickListener {
@@ -36,7 +37,7 @@ public class LauncherActivity extends AppCompatActivity implements View.OnClickL
             popup.show();
         });
 
-        ImageButton clothingBtn = findViewById(R.id.clothing_btn);
+        Button clothingBtn = findViewById(R.id.clothing_btn);
         clothingBtn.setOnClickListener(this);
     }
 
